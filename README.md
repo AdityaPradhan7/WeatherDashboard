@@ -1,8 +1,7 @@
 # Global Weather Dashboard 🌍⛅
 
-🔗 **Live Demo**: _[Coming Soon / Add your Vercel or GitHub Pages link here]_  
-📦 **Download Syncloop Package**: [Click here](https://github.com/AdityaPradhan7/WeatherDashboard/blob/main/Syncloop%20package.zip)  
-💻 **GitHub Repository**: [Global Weather Dashboard](https://github.com/AdityaPradhan7/WeatherDashboard)
+🔗 **Live Demo**: [Link](https://weather-dashboard-psi-fawn.vercel.app/)  
+📦 **Syncloop Package**: [Link](https://github.com/AdityaPradhan7/WeatherDashboard/blob/main/Syncloop%20package.zip)
 
 ---
 
