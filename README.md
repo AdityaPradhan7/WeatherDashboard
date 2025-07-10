@@ -18,6 +18,8 @@ Global Weather Dashboard is a browser-based, user-friendly platform that enables
    - Auto-fills city name from a phrase like:  
      _"Tell me the weather in **New Delhi**"_ → Extracts the city name **New Delhi** and searches for it
      _"Get weather for **Chandigarh**"_ → Extracts the city name **Chandigarh** and searches for it
+     🔍 Real-Time Suggestions
+   - Integrated the GeoDB Cities API for real-time autocomplete suggestions while typing. The suggestions dynamically update with each keystroke, helping users quickly find their desired city.
 
 2. **Location & Time Info**
    - Converts city name to latitude and longitude using **OpenWeatherMap Geocoding API**
@@ -63,6 +65,7 @@ Global Weather Dashboard is a browser-based, user-friendly platform that enables
 - **TimeZoneDB API** *(via Syncloop)*
 - **Open-Meteo Archive API**
 - **AQICN Overlay** (for map air quality layers)
+- **GeoDB Cities**(for autocomplete suggestions for city)
 
 ### Backend APIs
 - **Syncloop Platform**  
