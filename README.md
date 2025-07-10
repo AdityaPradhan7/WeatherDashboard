@@ -6,7 +6,7 @@
 ---
 
 ## 📄 Description  
-Global Weather Dashboard is a browser-based, user-friendly platform that enables users to search for any city via text or voice and receive real-time weather information, air quality levels, local time, forecast, historical data, and interactive map overlays. This app fetches accurate data from multiple external APIs and presents it in an organized and visually appealing interface.
+Global Weather Dashboard is a browser-based, user-friendly platform that enables users to search for any city via text or voice and receive real-time weather information, air quality levels, local time, forecast, past weather data, and interactive map with temperature and AQI overlays. This app fetches accurate data from multiple external APIs and presents it in an organized and visually appealing interface.
 
 ---
 
@@ -14,9 +14,10 @@ Global Weather Dashboard is a browser-based, user-friendly platform that enables
 
 1. **Search Functionality**
    - Text input-based city search
-   - Voice input using the browser’s built-in **Web Speech API**
+   - Voice search using the browser’s built-in **Web Speech API**
    - Auto-fills city name from a phrase like:  
-     _"Tell me the weather in **Tokyo**"_ → Extracts and searches for **Tokyo**
+     _"Tell me the weather in **New Delhi**"_ → Extracts the city name **New Delhi** and searches for it
+     _"Get weather for **Chandigarh**"_ → Extracts the city name **Chandigarh** and searches for it
 
 2. **Location & Time Info**
    - Converts city name to latitude and longitude using **OpenWeatherMap Geocoding API**
@@ -29,7 +30,7 @@ Global Weather Dashboard is a browser-based, user-friendly platform that enables
 4. **Air Quality**
    - Live air quality data using **OpenWeatherMap Air Pollution API** (via Syncloop)
 
-5. **Historical Weather**
+5. **Past Weather Data**
    - Past weather data based on date range using **Open-Meteo Historical Weather API**
    - Max and min temperatures displayed daily
 
@@ -63,9 +64,9 @@ Global Weather Dashboard is a browser-based, user-friendly platform that enables
 - **Open-Meteo Archive API**
 - **AQICN Overlay** (for map air quality layers)
 
-### API Management
+### Backend APIs
 - **Syncloop Platform**  
-  Unified API endpoint that bundles multiple services, making code cleaner and easier to manage.
+  Unified API endpoint that bundles multiple services into one, making code cleaner and easier to manage.
 
 📦 [Download Syncloop Package](https://github.com/AdityaPradhan7/WeatherDashboard/blob/main/Syncloop%20package.zip)
 
@@ -81,7 +82,7 @@ Global Weather Dashboard is a browser-based, user-friendly platform that enables
 ### 2. Frontend Development
 - Built in pure HTML, CSS, and JavaScript
 - Integrated Granim.js for dynamic background transitions
-- Implemented voice recognition via Web Speech API
+- Implemented voice search via Web Speech API
 
 ### 3. API Integration
 - Used OpenWeatherMap’s Geocoding API to convert city names into lat/lon
